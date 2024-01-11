@@ -19,6 +19,7 @@ Begin by cloning the repository:
 ```bash
 git clone https://github.com/upendradhamala/School-Management-System.git
 ```
+````
 
 ### Getting Started
 
@@ -77,4 +78,3 @@ Feel free to explore the user-friendly interface and manage school activities ef
 ```
 
 ```
-````
