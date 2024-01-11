@@ -1,82 +1,82 @@
+Certainly! Here's the README in Markdown format:
+
+````markdown
 # School Management System
 
-This is a MERN stack website which can be used for managing the school. It has almost all features and few are in development phase.
+Welcome to the School Management System, a comprehensive MERN stack website designed to streamline school administration. This repository encompasses a range of features crucial for effective school management, with ongoing development to enhance its capabilities.
 
-`Please give this repo a star if this project helped you in any way. This will mean a lot to me and motivate me more to bring this type of project. (Live url does not work as of now due to heroku removing free services)`
+If you find this project beneficial, please consider giving it a star. Your support is highly appreciated and serves as motivation for future projects. Please note that the live URL is currently unavailable due to Heroku removing free services.
 
-### `LIVE SITE`
+## Demo Credentials
 
-```bash
-https://manageschool1.herokuapp.com/
+To explore the full functionality of the system, log in as an administrator using the following credentials:
 
-``` 
-
-### `LOGIN AS ADMIN AND SEE EVERYTHING`
-
-```bash
-Login email="admin1@example.com"
-Login password="adminpassword1"
-```
+- **Email:** admin1@example.com
+- **Password:** adminpassword1
 
 ## Usage
 
-Clone the repo
+Begin by cloning the repository:
 
 ```bash
 git clone https://github.com/upendradhamala/School-Management-System.git
 ```
+````
 
 ### Getting Started
 
-Go to the root folder and install the backend dependencies by using the command-
+Navigate to the root folder and install backend dependencies:
 
 ```bash
 npm install
 ```
 
-Go to the frontend folder by command cd frontend and then install frontend dependecies using the command-
+Proceed to the frontend folder (`cd frontend`) and install frontend dependencies:
 
 ```bash
 npm install
 ```
 
-### `ENV Variables`
+### Environment Variables
 
-Create a .env file in the root and add the following. You can see .env.example for format.
+Create a `.env` file in the root directory and add the following variables (refer to `.env.example` for the format):
 
 ```bash
 NODE_ENV=development
 PORT=5000
-MONGO_URI="Your mongo uri"
-JWT_SECRET="Anything you like"
-CLOUDINARY_URL ="your cloudinary url"
-CLOUDINARY_UPLOAD_PRESET = "your cloudinary preset "
+MONGO_URI="Your MongoDB URI"
+JWT_SECRET="YourSecretKey"
+CLOUDINARY_URL ="Your Cloudinary URL"
+CLOUDINARY_UPLOAD_PRESET = "Your Cloudinary Upload Preset"
 ```
-Create a .env file in the frontend folder and add the following. You can see .env.example for format.
+
+Create another `.env` file in the frontend folder with the following variables:
 
 ```bash
-REACT_APP_CLOUD_NAME="Your value"
-REACT_APP_CLOUD_PRESET="Your value"
+REACT_APP_CLOUD_NAME="Your Cloud Name"
+REACT_APP_CLOUD_PRESET="Your Cloud Preset"
 ```
-### `Running`
 
-Go to the root folder and at first seed the database through command
+### Running
+
+In the root folder, seed the database:
 
 ```bash
 npm run data:import
 ```
 
-After seed is successful run following command to run both backend and frontend concurrently
+Once the seed is successful, run the following command to start both the backend and frontend concurrently:
 
 ```bash
 npm run dev
 ```
 
+### Homepage
 
-### `Homepage`
+[![Homepage Screenshot](https://i.postimg.cc/jjHs8psH/Screenshot-from-2021-04-30-16-59-15.png)](https://postimg.cc/67QJq14q)
 
-[![Screenshot-from-2021-04-30-16-59-15.png](https://i.postimg.cc/jjHs8psH/Screenshot-from-2021-04-30-16-59-15.png)](https://postimg.cc/67QJq14q)
+Feel free to explore the user-friendly interface and manage school activities effortlessly!
 
+```
 
-
-
+```
